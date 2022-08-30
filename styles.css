@@ -271,3 +271,26 @@ main {
   width: 100%;
   margin-block: 4rem;
 }
+
+
+/* ?Footer section */
+.footer-section {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-block: 1rem;
+}
+
+.go-to-top {
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.go-to-top:hover {
+  background-color: rgb(177, 177, 177);
+}
+
+.footer__icons {
+  margin-block: 0.8rem;
+}

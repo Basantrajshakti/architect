@@ -295,6 +295,11 @@ main {
   margin-block: 0.8rem;
 }
 
+.footer__icons a{
+  margin-inline: 0.5rem;
+  color: #fff;
+}
+
 
 /* ?Desktop code */
 @media (min-width:38rem) {

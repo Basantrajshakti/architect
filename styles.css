@@ -172,3 +172,65 @@ main {
   top: 0;
   left: 0;
 }
+
+
+/* ?About section */
+.about-section {
+  margin-inline: 2rem;
+}
+
+.about-section__description {
+  font-weight: 300;
+  padding-top: 1rem;
+}
+
+.about-section__teams {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 3rem;
+}
+
+.about-section__team {
+  margin-bottom: 1rem;
+  box-shadow: 0px 0px 10px rgb(172, 172, 172);
+}
+
+.about-section__team-image {
+  width: 100%;
+}
+
+.about-section__team-name,
+.about-section__team-position,
+.about-section__team-description,
+.about-section__team-contact {
+  padding: 0.5rem 1rem;
+}
+
+.about-section__team-name {
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+
+.about-section__team-position {
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #9b9b9b;
+}
+
+.about-section__team-description {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.about-section__team-contact-button {
+  font-size: 0.9rem;
+  padding-block: 0.5rem;
+  width: 100%;
+  border: none;
+}
+
+.about-section__team-contact-button:hover {
+  background-color: rgb(182, 182, 182);
+}
+

@@ -234,3 +234,40 @@ main {
   background-color: rgb(182, 182, 182);
 }
 
+
+/* ?contact section */
+.contact-section {
+  margin-inline: 2rem;
+}
+
+.contact-section__description {
+  padding-block: 1rem;
+}
+
+.contact-section__form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 20px;
+}
+
+.contact-section__form input:focus,
+.contact-section__form input:hover {
+  border-color: rgb(216, 133, 133);
+  outline: none;
+}
+
+.contact-section__form-submit-button {
+  padding: 0.5rem 2rem;
+  border: none;
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.contact-section__map {
+  width: 100%;
+  margin-block: 4rem;
+}

@@ -340,3 +340,14 @@ main {
     width: calc(50% - 0.5rem);
   }
 }
+
+
+@media (min-width:64rem) {
+  .project-section__project {
+    width: calc(25% - 0.5rem);
+  }
+
+  .about-section__team {
+    width: calc(25% - 0.5rem);
+  }
+}

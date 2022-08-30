@@ -106,3 +106,37 @@ header {
 .main-nav {
   display: none;
 }
+
+
+/* ?Main section */
+main {
+  margin-top: 3.5rem;
+}
+
+.main-section {
+  letter-spacing: 3px;
+  position: relative;
+}
+
+.main-section__background {
+  width: 100%;
+}
+
+.main-section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-section__heading-bold {
+  font-size: 2.2rem;
+  color: rgb(254, 254, 254);
+  font-weight: 500;
+  padding-inline: 1rem;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.main-section__heading-normal {
+  display: none;
+}
